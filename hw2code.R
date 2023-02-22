@@ -3,7 +3,7 @@ library(tidyverse)
 library(lubridate)
 
 #read data
-restdata = read_csv("restaurant_inspections copy.csv")
+restdata = read_csv("restaurant_inspections.csv")
 
 #view the data and column names
 View(restdata)
